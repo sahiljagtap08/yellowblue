@@ -32,7 +32,7 @@ export default function Cards() {
         {cardsData.map((card) => (
           <div key={card.id} style={{ margin: '0 10px', cursor: 'pointer' }} onClick={() => revealCard(card.id)}>
             {!revealedCards.includes(card.id) ? (
-              <div style={{ width: '150px', height: '200px', backgroundColor: '#eee' }}>
+              <div style={{ width: '150px', height: '200px', backgroundColor: '#43ffbd' }}>
                 <p>Click to Reveal</p>
               </div>
             ) : (

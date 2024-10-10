@@ -19,7 +19,7 @@ export default function Home() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Login</h1>
+      <h1>Yellow Blue Gift Reveal</h1>
       <input
         type="text"
         placeholder="Username"
